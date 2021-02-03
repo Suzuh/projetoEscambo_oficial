@@ -1,0 +1,35 @@
+@import url("root.css");
+
+/* Tela de login */
+
+body#login {
+    width: 100vw !important;
+    max-width: 100% !important;
+    height: 100vh !important;
+    max-height: 100% !important;
+    background-image: url(../../public/img/bg_login_adm.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-size: cover !important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body#login div.card {
+    margin-top: 25vh;
+    background: transparent;
+}
+
+body#login div.card div.card-header, body#login div.card div.card-footer {
+    background-color: rgba(216, 216, 216, 0.9);
+    border-color: rgba(216, 216, 216, 0.9);
+}
+
+body#login div.card div.card-body {
+    background-color: rgba(248, 237, 237, 0.85);
+    border-color: rgba(248, 237, 237, 0.85);
+    -webkit-box-shadow: inset 0px 0px 13px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: inset 0px 0px 13px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: inset 0px 0px 13px 0px rgba(50, 50, 50, 0.75);
+}
