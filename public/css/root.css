@@ -1,3 +1,33 @@
+/* Aqui ficarão colorações e cores padrão com orientação a objeto para facilitar a edição */
+
+/* colorações */
+
+:root {
+    --cor-black: #0E0B16;
+    --cor-purple: #A239CA;
+    --cor-blue: #4717F6;
+    --cor-star: #E7DFDD;
+    --cor-star-disabled: #a8a3a2;
+}
+
+/* configurações */
+
+nav.navbar {
+    background-color: var(--cor-black);
+}
+
+nav li.nav-item a.nav-link {
+    color: var(--cor-star) !important;
+}
+
+nav li.nav-item a.nav-link.disabled {
+    color: var(--cor-star-disabled) !important;
+}
+
+nav li.nav-item a.nav-link:hover {
+    color: var(--cor-purple) !important;
+}
+
 button {
     transition: all 0.6s !important;
 }
