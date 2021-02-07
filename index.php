@@ -26,7 +26,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,20 +44,20 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Lista de animes
                         </a>
 
                         <ul class="dropdown-menu text-end" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Legendado</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Dublado</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Dublado</a></li>
                         </ul>
 
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="temporada" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="temporada" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Temporadas
                         </a>
 
@@ -77,17 +77,6 @@
     </nav>
 
 
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>
-                    Esta é uma tela de sistema padrão
-                </h1>
-            </div>
-        </div>
-    </div>
 
     <script src="public/lib/jquery-3.5.1.js"></script>
     <!-- JavaScript Bundle with Popper -->

@@ -12,20 +12,38 @@
 
 /* configurações */
 
-nav.navbar {
+nav.navbar, nav li.nav-item.dropdown ul.dropdown-menu {
     background-color: var(--cor-black);
 }
 
-nav li.nav-item a.nav-link {
+nav li.nav-item a.nav-link, 
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item {
     color: var(--cor-star) !important;
+    transition: all 0.5s !important;
 }
 
-nav li.nav-item a.nav-link.disabled {
+nav li.nav-item a.nav-link.disabled,
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item.disabled {
     color: var(--cor-star-disabled) !important;
 }
 
-nav li.nav-item a.nav-link:hover {
+nav li.nav-item a.nav-link:hover, 
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover {
     color: var(--cor-purple) !important;
+}
+
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover, 
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:active {
+    background-color: transparent !important;
+    color: var(--cor-purple) !important;
+    border-left:solid 2rem  var(--cor-purple);
+    /* padding-left: 2rem !important; */
+    padding-right: 0rem !important;
+}
+
+nav li.nav-item.dropdown ul.dropdown-menu, 
+nav li.nav-item.dropdown ul.dropdown-menu hr.dropdown-divider {
+    border-color: var(--cor-purple);
 }
 
 button {
