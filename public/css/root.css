@@ -63,6 +63,7 @@ button:hover {
 
 .title-theme {
     border-bottom: solid 0.5rem var(--cor-purple);
+    font-family: pireli;
 }
 
 @font-face{
