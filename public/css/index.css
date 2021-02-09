@@ -8,6 +8,7 @@ body#index section.divulge div.divulgação {
     color: var(--cor-star) !important;
     text-align: center;
     font-size: xx-large;
+    font-family: pireli;
 }
 
 body#index .typeWriter i {
