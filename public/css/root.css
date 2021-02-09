@@ -11,14 +11,15 @@
 }
 
 /* configurações */
-body{
+
+body {
     background-color: var(--cor-black) !important;
     width: 100vw !important;
     max-width: 100%;
     min-height: 100vh;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     color: var(--cor-star) !important;
 }
 
@@ -26,33 +27,28 @@ nav.navbar, nav li.nav-item.dropdown ul.dropdown-menu {
     background-color: var(--cor-black);
 }
 
-nav li.nav-item a.nav-link, 
-nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item {
+nav li.nav-item a.nav-link, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item {
     color: var(--cor-star) !important;
     transition: all 0.5s !important;
 }
 
-nav li.nav-item a.nav-link.disabled,
-nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item.disabled {
+nav li.nav-item a.nav-link.disabled, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item.disabled {
     color: var(--cor-star-disabled) !important;
 }
 
-nav li.nav-item a.nav-link:hover, 
-nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover {
+nav li.nav-item a.nav-link:hover, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover {
     color: var(--cor-purple) !important;
 }
 
-nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover, 
-nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:active {
+nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:hover, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item:active {
     background-color: transparent !important;
     color: var(--cor-purple) !important;
-    border-left:solid 2rem  var(--cor-purple);
+    border-left: solid 2rem var(--cor-purple);
     /* padding-left: 2rem !important; */
     padding-right: 0rem !important;
 }
 
-nav li.nav-item.dropdown ul.dropdown-menu, 
-nav li.nav-item.dropdown ul.dropdown-menu hr.dropdown-divider {
+nav li.nav-item.dropdown ul.dropdown-menu, nav li.nav-item.dropdown ul.dropdown-menu hr.dropdown-divider {
     border-color: var(--cor-purple);
 }
 
@@ -64,7 +60,7 @@ button:hover {
     transform: scaleX(0.85) !important;
 }
 
-.title-theme{
+.title-theme {
     border-bottom: solid 0.5rem var(--cor-purple);
 }
 
