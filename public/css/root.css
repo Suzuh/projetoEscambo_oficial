@@ -11,6 +11,16 @@
 }
 
 /* configurações */
+body{
+    background-color: var(--cor-black) !important;
+    width: 100vw !important;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--cor-star) !important;
+}
 
 nav.navbar, nav li.nav-item.dropdown ul.dropdown-menu {
     background-color: var(--cor-black);
@@ -52,4 +62,8 @@ button {
 
 button:hover {
     transform: scaleX(0.85) !important;
+}
+
+.title-theme{
+    border-bottom: solid 0.5rem var(--cor-purple);
 }

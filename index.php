@@ -22,12 +22,16 @@
     <link rel="stylesheet" href="public/lib/bootstrap-5.0.0-beta/css/bootstrap-utilities.rtl.min.css">
     <link rel="stylesheet" href="public/lib/bootstrap-5.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/lib/bootstrap-5.0.0-beta/css/bootstrap.rtl.min.css">
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body id="index">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="index.php">
+                <img src="public/img/logo_purple.png" alt="logo da escambo" width="190" height="80">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,6 +79,39 @@
             </div>
         </div>
     </nav>
+
+    <div class="container-fluid">
+        <section class="banners">
+            <div class="row">
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="divulge">
+            <div class="row">
+                <div class="col-12">
+                    <div class="divulgação">
+                        <p class="my-auto py-4">
+                            ANUNCIE NA ESCAMBO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lançamentos mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title-theme">
+                        Lançamentos da temporada <span class="d-none d-md-inline typeWriter"><i class="bi bi-circle-fill ms-1"></i><i class="bi bi-circle-fill ms-1"></i><i class="bi bi-circle-fill ms-1"></i></span>
+                    </h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
 
 
 
