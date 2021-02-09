@@ -30,6 +30,7 @@ nav.navbar, nav li.nav-item.dropdown ul.dropdown-menu {
 nav li.nav-item a.nav-link, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item {
     color: var(--cor-star) !important;
     transition: all 0.5s !important;
+    font-family: pireli;
 }
 
 nav li.nav-item a.nav-link.disabled, nav li.nav-item.dropdown ul.dropdown-menu a.dropdown-item.disabled {
